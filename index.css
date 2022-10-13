@@ -181,15 +181,33 @@ body {
   border-left: none;
 }
 
-.how-do-i-item {
+.how-do-i-main {
   background-color: #636363;
   color: white;
   padding: 10px;
   margin-bottom: 10px;
+  transition: 0.5s all;
 }
 
+.how-do-i-detail {
+  background-color: #636363;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  transition: 0.5s all;
+  display: none;
+}
 .how-do-i-item img {
   margin-right: 5px;
+}
+
+.how-do-i-item {
+  transition: 0.5 all;
+  cursor: pointer;
+}
+
+.how-do-i-main.dropdown {
+  background-color: #4ac49a;
 }
 
 /* RESPONSIVE */
